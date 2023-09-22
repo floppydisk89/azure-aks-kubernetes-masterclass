@@ -14,10 +14,10 @@ resource "azurerm_resource_group" "aks-rg2" {
   location = "Central US"
 
 # Add Tags
-#  tags = {
-#    "environment" = "k8sdev"
-#    "demotag"     = "refreshtest"
-#  }
+ tags = {
+   "environment" = "k8sdev"
+   "demotag"     = "refreshtest"
+ }
 
 }
 
